@@ -6,7 +6,7 @@ Also check for the extended [chat_response.json](public/chat_response.json)
 
 ## Demo
 
-- [Original version](https://erhaem.github.io/cikchat/extended)
+- [Original version](https://erhaem.github.io/cikchat)
 - [Extended version](https://erhaem.github.io/cikchat/extended)
 
 ## Screenshot
