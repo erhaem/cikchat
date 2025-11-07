@@ -36,10 +36,7 @@ const messageListRef = ref(null)
 
 const loadChatData = async () => {
   try {
-    // source: 
-    // https://gist.githubusercontent.com/asharijuang/23745f3132fa30e666db68d2bf574e4a/raw/5d556dbb9c2aea9fdf3e1ec96e45f62a88cea7b6/chat_response.json
     const file = 'chat_response.json'
-
     const response = await fetch(`${import.meta.env.BASE_URL}${file}`)
     const data = await response.json()
     room.value = data.results[0].room
