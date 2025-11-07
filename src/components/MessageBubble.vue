@@ -73,6 +73,31 @@
         </div>
       </div>
 
+      <!-- Generic file attachment -->
+      <div v-if="message.type === 'file' && message.attachments && message.attachments.length > 0" class="mt-2">
+        <div v-for="(attachment, index) in message.attachments" :key="index" class="border border-gray-300 rounded-lg p-3 bg-gray-50">
+          <div class="flex items-center gap-3">
+            <div class="flex-shrink-0">
+              <svg class="w-10 h-10 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M4 4a2 2 0 012-2h6l4 4v10a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" />
+                <path d="M8 11h4M8 14h4" stroke="#1D4ED8" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="text-sm font-medium text-gray-900 truncate">{{ attachment.file_name }}</p>
+              <p class="text-xs text-gray-500">{{ formatFileSize(attachment.file_size) }}</p>
+            </div>
+            <a 
+              :href="attachment.file_url" 
+              target="_blank"
+              class="flex-shrink-0 px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-lg transition"
+            >
+              Download
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div class="text-xs text-gray-500 mt-1 text-right">
         ID: {{ message.id }}
       </div>

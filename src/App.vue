@@ -12,6 +12,7 @@
       />
       <ChatInput 
         @send-message="handleSendMessage"
+        @attach-file="handleAttachFile"
       />
     </template>
     <div v-else class="flex-1 flex items-center justify-center">
@@ -71,6 +72,53 @@ const handleSendMessage = (messageText) => {
   }
 
   messages.value.push(newMessage)
+
+  nextTick(() => {
+    if (messageListRef.value) {
+      messageListRef.value.scrollToBottom()
+    }
+  })
+}
+
+const handleAttachFile = (file) => {
+  if (!file) return
+
+  const mime = file.type || ''
+  let type = 'file'
+
+  if (mime.startsWith('image/')) type = 'image'
+  else if (mime.startsWith('video/')) type = 'video'
+  else if (mime === 'application/pdf') type = 'pdf'
+
+  const newId = nextMessageId.value + 1
+  nextMessageId.value = newId
+
+  const attachment = {
+    file_url: URL.createObjectURL(file),
+    file_type: mime,
+    file_name: file.name,
+    file_size: file.size
+  }
+
+  if (type === 'video') {
+    attachment.thumbnail_url = attachment.file_url
+  }
+
+  const newMessage = {
+    id: newId,
+    type,
+    message: '',
+    sender: currentUser.value,
+    attachments: [attachment]
+  }
+
+  messages.value.push(newMessage)
+
+  nextTick(() => {
+    if (messageListRef.value) {
+      messageListRef.value.scrollToBottom()
+    }
+  })
 }
 
 onMounted(() => {
