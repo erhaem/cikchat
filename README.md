@@ -1,6 +1,17 @@
 # CikChat
 
-Just a chat interface preview built with Vue + Vite
+Just an EXTENDED version of chat interface preview with media (image, video, pdf) attachment support added, built with Vue + Vite. See the original version's source code [here](https://github.com/erhaem/cikchat/tree/main).
+
+Also check for the extended [chat_response.json](public/chat_response.json)
+
+## Demo
+
+- [Original version](https://erhaem.github.io/cikchat/extended)
+- [Extended version](https://erhaem.github.io/cikchat/extended)
+
+## Screenshot
+
+![Demo extended version screenshot](ss-extended.png)
 
 ## Develop
 
