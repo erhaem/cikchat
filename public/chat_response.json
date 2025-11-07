@@ -28,31 +28,115 @@
           "id": 885512,
           "type": "text",
           "message": "Selamat malam",
-          "sender": "customer@mail.com"
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:30:00Z"
         },
         {
           "id": 885513,
           "type": "text",
           "message": "Malam",
-          "sender": "agent@mail.com"
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:30:15Z"
         },
         {
           "id": 885514,
           "type": "text",
           "message": "Ada yang bisa saya bantu?",
-          "sender": "agent@mail.com"
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:30:20Z"
         },
         {
           "id": 885515,
           "type": "text",
           "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
-          "sender": "customer@mail.com"
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:31:00Z"
         },
         {
           "id": 885516,
           "type": "text",
           "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
-          "sender": "agent@mail.com"
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:31:30Z"
+        },
+        {
+          "id": 885517,
+          "type": "image",
+          "message": "Ini bukti transfernya",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:32:00Z",
+          "attachments": [
+            {
+              "file_url": "https://picsum.photos/id/24/400/600",
+              "file_type": "image/jpeg",
+              "file_name": "bukti_transfer.jpg",
+              "file_size": 245678,
+              "thumbnail_url": "https://picsum.photos/id/24/200/300"
+            }
+          ]
+        },
+        {
+          "id": 885518,
+          "type": "text",
+          "message": "Terima kasih, sedang saya cek dahulu",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:32:30Z"
+        },
+        {
+          "id": 885519,
+          "type": "pdf",
+          "message": "Berikut invoice pembayaran Anda",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:35:00Z",
+          "attachments": [
+            {
+              "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "file_type": "application/pdf",
+              "file_name": "invoice_12456.pdf",
+              "file_size": 512000,
+              "thumbnail_url": "https://picsum.photos/id/180/200/300"
+            }
+          ]
+        },
+        {
+          "id": 885520,
+          "type": "video",
+          "message": "Tutorial cara melakukan pembayaran",
+          "sender": "agent@mail.com",
+          "timestamp": "2024-01-15T19:36:00Z",
+          "attachments": [
+            {
+              "file_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "file_type": "video/mp4",
+              "file_name": "tutorial_pembayaran.mp4",
+              "file_size": 5242880,
+              "thumbnail_url": "https://picsum.photos/id/40/400/300",
+              "duration": 120
+            }
+          ]
+        },
+        {
+          "id": 885521,
+          "type": "text",
+          "message": "Baik, terima kasih banyak atas bantuannya!",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:37:00Z"
+        },
+        {
+          "id": 885522,
+          "type": "image",
+          "message": "",
+          "sender": "customer@mail.com",
+          "timestamp": "2024-01-15T19:37:30Z",
+          "attachments": [
+            {
+              "file_url": "https://picsum.photos/id/64/600/400",
+              "file_type": "image/png",
+              "file_name": "screenshot.png",
+              "file_size": 189000,
+              "thumbnail_url": "https://picsum.photos/id/64/200/150"
+            }
+          ]
         }
       ]
     }
