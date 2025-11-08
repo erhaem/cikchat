@@ -90,9 +90,9 @@
           "timestamp": "2024-01-15T19:35:00Z",
           "attachments": [
             {
-              "file_url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf",
+              "file_url": "https://erhaem.github.io/cikchat/extended/invoice.pdf",
               "file_type": "application/pdf",
-              "file_name": "invoice_12456.pdf",
+              "file_name": "invoice.pdf",
               "file_size": 512000,
               "thumbnail_url": "https://picsum.photos/id/180/200/300"
             }
@@ -106,11 +106,11 @@
           "timestamp": "2024-01-15T19:36:00Z",
           "attachments": [
             {
-              "file_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              "file_url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
               "file_type": "video/mp4",
               "file_name": "tutorial_pembayaran.mp4",
               "file_size": 5242880,
-              "thumbnail_url": "https://picsum.photos/id/40/400/300",
+              "thumbnail_url": "https://picsum.photos/id/9/400/300",
               "duration": 120
             }
           ]
@@ -130,11 +130,11 @@
           "timestamp": "2024-01-15T19:37:30Z",
           "attachments": [
             {
-              "file_url": "https://picsum.photos/id/64/600/400",
+              "file_url": "https://picsum.photos/id/180/600/400",
               "file_type": "image/png",
               "file_name": "screenshot.png",
               "file_size": 189000,
-              "thumbnail_url": "https://picsum.photos/id/64/200/150"
+              "thumbnail_url": "https://picsum.photos/id/180/200/150"
             }
           ]
         }

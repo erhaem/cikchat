@@ -6,7 +6,7 @@
         ? 'bg-green-100 rounded-br-none' 
         : 'bg-white rounded-bl-none'
     ]">
-      <div v-if="!isOwn" class="text-xs font-semibold text-purple-600 mb-1">
+  <div v-if="!isOwn" class="text-xs font-semibold text-[#01416c] mb-1">
         {{ senderName }}
       </div>
 
@@ -65,7 +65,7 @@
             <a 
               :href="attachment.file_url" 
               target="_blank"
-              class="flex-shrink-0 px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-lg transition"
+              class="flex-shrink-0 px-3 py-1.5 bg-[#01416c] hover:bg-[#026aa7] text-white text-sm rounded-lg transition"
             >
               View
             </a>
@@ -90,7 +90,7 @@
             <a 
               :href="attachment.file_url" 
               target="_blank"
-              class="flex-shrink-0 px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white text-sm rounded-lg transition"
+              class="flex-shrink-0 px-3 py-1.5 bg-[#01416c] hover:bg-[#026aa7] text-white text-sm rounded-lg transition"
             >
               Download
             </a>
