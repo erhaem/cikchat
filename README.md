@@ -11,7 +11,7 @@ Also check for the extended [chat_response.json](public/chat_response.json)
 
 ## Screenshot
 
-![Demo extended version screenshot](ss-extended.png)
+![Demo extended version screenshot](ss_extended.png)
 
 ## Develop
 

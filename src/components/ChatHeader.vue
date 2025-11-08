@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-to-r from-purple-600 to-purple-800 text-white p-4 flex items-center gap-3 shadow-lg">
+  <div class="bg-[#01416c] text-white p-4 flex items-center gap-3 shadow-lg">
     <img :src="room.image_url" :alt="room.name" class="w-12 h-12 rounded-full border-2 border-white object-cover">
     <div class="flex-1">
       <h2 class="text-lg font-semibold">{{ room.name }}</h2>
