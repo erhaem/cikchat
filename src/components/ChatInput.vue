@@ -16,7 +16,7 @@
       :class="[
         'w-10 h-10 rounded-full flex items-center justify-center transition',
         messageText.trim() 
-          ? 'bg-purple-600 hover:bg-purple-700 text-white' 
+          ? 'bg-[#01416c] hover:bg-[#026aa7] text-white' 
           : 'bg-gray-300 text-gray-500 cursor-not-allowed'
       ]"
     >

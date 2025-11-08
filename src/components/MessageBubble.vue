@@ -6,7 +6,7 @@
         ? 'bg-green-100 rounded-br-none' 
         : 'bg-white rounded-bl-none'
     ]">
-      <div v-if="!isOwn" class="text-xs font-semibold text-purple-600 mb-1">
+  <div v-if="!isOwn" class="text-xs font-semibold text-[#01416c] mb-1">
         {{ senderName }}
       </div>
 
