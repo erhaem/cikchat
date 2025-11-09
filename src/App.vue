@@ -14,9 +14,6 @@
         @send-message="handleSendMessage"
       />
     </template>
-    <div v-else class="flex-1 flex items-center justify-center">
-      <div class="text-gray-500">Loading chat...</div>
-    </div>
   </div>
 </template>
 
