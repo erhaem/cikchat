@@ -62,7 +62,7 @@
         {
           "id": 885517,
           "type": "video",
-          "message": "Berikut Tutorial mengirim bukti transfer",
+          "message": "Berikut Tutorial mengirim bukti pembayaran",
           "sender": "agent@mail.com",
           "timestamp": "2025-11-06T12:01:45Z",
           "attachments": [
@@ -79,7 +79,7 @@
         {
           "id": 885518,
           "type": "image",
-          "message": "Ini bukti transfernya",
+          "message": "Ini bukti pemabayarannya",
           "sender": "customer@mail.com",
           "timestamp": "2025-11-06T12:02:00Z",
           "attachments": [
