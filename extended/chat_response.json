@@ -60,7 +60,7 @@
           "timestamp": "2025-11-06T12:01:30Z"
         },
         {
-          "id": 885520,
+          "id": 885517,
           "type": "video",
           "message": "Berikut Tutorial mengirim bukti transfer",
           "sender": "agent@mail.com",
@@ -77,7 +77,7 @@
           ]
         },
         {
-          "id": 885517,
+          "id": 885518,
           "type": "image",
           "message": "Ini bukti transfernya",
           "sender": "customer@mail.com",
@@ -93,16 +93,16 @@
           ]
         },
         {
-          "id": 885518,
+          "id": 885519,
           "type": "text",
           "message": "Oke saya cek dulu",
           "sender": "agent@mail.com",
           "timestamp": "2025-11-06T12:02:30Z"
         },
         {
-          "id": 885519,
+          "id": 885520,
           "type": "pdf",
-          "message": "Berikut invoice pembayaran Anda",
+          "message": "Sip lunas ya. Berikut ini kwitansinya",
           "sender": "agent@mail.com",
           "timestamp": "2025-11-06T12:05:00Z",
           "attachments": [
@@ -118,7 +118,7 @@
         {
           "id": 885521,
           "type": "text",
-          "message": "Baik, terima kasih banyak atas bantuannya!",
+          "message": "Baik, terima kasih banyak bantuannya!",
           "sender": "customer@mail.com",
           "timestamp": "2025-11-06T12:07:00Z"
         }
