@@ -15,9 +15,6 @@
         @attach-file="handleAttachFile"
       />
     </template>
-    <div v-else class="flex-1 flex items-center justify-center">
-      <div class="text-gray-500">Loading chat...</div>
-    </div>
   </div>
 </template>
 
@@ -65,7 +62,8 @@ const handleSendMessage = (messageText) => {
     id: newId,
     type: 'text',
     message: messageText,
-    sender: currentUser.value
+    sender: currentUser.value,
+    timestamp: new Date().toISOString()
   }
 
   messages.value.push(newMessage)
@@ -106,7 +104,8 @@ const handleAttachFile = (file) => {
     type,
     message: '',
     sender: currentUser.value,
-    attachments: [attachment]
+    attachments: [attachment],
+    timestamp: new Date().toISOString()
   }
 
   messages.value.push(newMessage)

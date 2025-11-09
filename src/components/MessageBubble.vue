@@ -99,7 +99,7 @@
       </div>
 
       <div class="text-xs text-gray-500 mt-1 text-right">
-        ID: {{ message.id }}
+        {{ formatTimestamp(message.timestamp) }}
       </div>
     </div>
   </div>
@@ -137,5 +137,12 @@ const formatDuration = (seconds) => {
 
 const openMedia = (url) => {
   window.open(url, '_blank')
+}
+
+const formatTimestamp = (timestamp) => {
+  if (!timestamp) return ''
+  const date = new Date(timestamp)
+  if (Number.isNaN(date.getTime())) return ''
+  return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
 }
 </script>
